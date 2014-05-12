@@ -21,6 +21,7 @@
 		7F314A4C1921851C009584C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F314A2E1921851C009584C4 /* UIKit.framework */; };
 		7F314A541921851C009584C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F314A521921851C009584C4 /* InfoPlist.strings */; };
 		7F314A561921851C009584C4 /* sampleone1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F314A551921851C009584C4 /* sampleone1Tests.m */; };
+		7F314A6119218550009584C4 /* sample.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F314A6019218550009584C4 /* sample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7F314A511921851C009584C4 /* sampleone1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sampleone1Tests-Info.plist"; sourceTree = "<group>"; };
 		7F314A531921851C009584C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F314A551921851C009584C4 /* sampleone1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleone1Tests.m; sourceTree = "<group>"; };
+		7F314A5F19218550009584C4 /* sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample.h; sourceTree = "<group>"; };
+		7F314A6019218550009584C4 /* sample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		7F314A1E1921851C009584C4 = {
 			isa = PBXGroup;
 			children = (
+				7F314A5F19218550009584C4 /* sample.h */,
+				7F314A6019218550009584C4 /* sample.m */,
 				7F314A301921851C009584C4 /* sampleone1 */,
 				7F314A4F1921851C009584C4 /* sampleone1Tests */,
 				7F314A291921851C009584C4 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F314A411921851C009584C4 /* UICViewController.m in Sources */,
+				7F314A6119218550009584C4 /* sample.m in Sources */,
 				7F314A3B1921851C009584C4 /* UICAppDelegate.m in Sources */,
 				7F314A371921851C009584C4 /* main.m in Sources */,
 			);
